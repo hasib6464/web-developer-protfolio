@@ -18,7 +18,7 @@ nav{
 }
 .btn-primary{
    color: white;
-   padding:5px 10px;
+   padding:10px 20px;
     border-radius: 5px;
     border: 0;
     font-weight: 700;
@@ -86,6 +86,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 100px;
+}
 .about{
     padding: 120px;
     border-radius: 10px;
@@ -110,4 +113,52 @@ font-size: 12px;
 }
 .about-info{
     text-align: center;
+}
+#what-i-do-description{
+    padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+    gap: 20px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+    border-radius: 5px;
+    background: #FFF;
+   
+}
+.skill-description{
+   color: #757575;
+}
+/* resume column title */
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-column-title{
+color: #474747;
+font-size: 30px;
+font-weight: 700;
+}
+.resume-item-institute{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.resume-item-institute,.resume-item-description{
+    color: #757575;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-container hr{
+    margin: 3px 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
